@@ -26,12 +26,12 @@ public class ed_11_exercicio2 {
         binary.addElement(30, 3);
         binary.addElement(5, 4);
         binary.addElement(12, 6);
-//        binary.addElement(20);
+      // binary.addElement(20,4);
         binary.addElement(20, 5);
         binary.addElement(35, 0);
 
         System.out.println("o removido: " + binary.removeNext());
-
+ 
         Iterator it = binary.iteratorLevelOrder();
         while (it.hasNext()) {
             System.out.println(it.next());

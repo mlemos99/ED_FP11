@@ -64,7 +64,7 @@ public class PriorityQueueNode<T> implements Comparable<PriorityQueueNode> {
      */
     @Override
     public String toString() {
-        String temp = (element.toString() + priority + order);
+        String temp = ("Elemento:"+ " " + "Prioridade:" + " " + "Ordem:" + "\n"+element.toString() + "         "+ priority + "           " + order);
         return temp;
     }
 
